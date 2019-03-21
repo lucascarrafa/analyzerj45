@@ -1,6 +1,22 @@
 # Ferramenta de análise de pacotes
 ![Imagem](/imagem/logo.PNG)
-## Parâmetros do sniff
+Versão 0.1
+
+## Executando o Analyzerj45
+
+```
+sudo python analyzerj45.py [interface] [tempo] [nome do arquivo]
+```
+interface: campo para especificar o interface de rede
+tempo: passa o tempo de coleta de dados em segundos
+nome do arquivo: nome do arquivo que será salvo os pacotes
+
+**Exemplo**
+```
+sudo python analyzerj45.py eth0 10 computador01
+```
+
+## Parâmetros do sniff 
 ```
 sniff(count=0, store=1, offline=None, prn=None, lfilter=None, L2socket=None, timeout=None, *arg, **karg)
     Sniff packets

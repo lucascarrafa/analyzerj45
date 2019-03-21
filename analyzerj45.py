@@ -15,7 +15,7 @@ from scapy.all import *
 
 
 def capture(dado):
-	with open(str(sys.argv[3]), "a") as text_file:
+	with open(str(sys.argv[3])+".txt", "a") as text_file:
 		import datetime
 	        text_file.write(str(datetime.datetime.now())+" "+str(dado.sprintf("{IP:%IP.src% %IP.dst% %IP.len% %IP.proto%}"))+"\n")
 
