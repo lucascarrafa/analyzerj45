@@ -13,11 +13,11 @@ Python 2.7 adiante
 ```
 sudo python analyzerj45.py [interface] [tempo] [nome do arquivo]
 ```
-interface: campo para especificar o interface de rede
+interface: campo para especificar a interface de rede
 
 tempo: passa o tempo de coleta de dados em segundos
 
-nome do arquivo: nome do arquivo que será salvo os pacotes
+nome do arquivo: nome do arquivo que serão salvos os pacotes
 
 **Exemplo**
 ```
