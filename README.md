@@ -5,6 +5,7 @@ Versão 0.1
 ## Requisitos
 
 Sistema Operacional Linux
+
 Python 2.7 adiante
 
 ## Executando o Analyzerj45
