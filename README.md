@@ -10,6 +10,8 @@ Python 2.7 adiante
 
 ## Executando o Analyzerj45
 
+Para capturar os pacotes basta executar o seguinte comando:
+
 ```
 sudo python analyzerj45.py [interface] [tempo] [nome do arquivo]
 ```
@@ -22,6 +24,21 @@ nome do arquivo: nome do arquivo que serão salvos os pacotes
 **Exemplo**
 ```
 sudo python analyzerj45.py eth0 10 computador01
+```
+
+## Executando a análise de dados
+
+Antes de utilizar esse recurso, certifique-se que o _pandas_ está devidamente instalado no Sistema
+
+Para análise dos dados basta executar o seguinte comando:
+
+```
+python proc_dados.py [nome do arquivo]
+```
+
+**Exemplo**
+```
+python proc_dados.py computador01
 ```
 
 ## Parâmetros do sniff 
